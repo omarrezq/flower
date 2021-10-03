@@ -1,0 +1,318 @@
+body{
+    margin: 0px;
+    font-family: Helvetica;
+}
+.header{
+    width: 100%;
+    background-image: url(media/annie-spratt-i633XAidx7I-unsplash.jpg);
+    background-position: center;
+    background-attachment: scroll;
+    background-size: cover;
+    color: white;
+    height: 470px;
+}
+.logo{
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+.buts{
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+
+}
+.but-up-one{
+margin-left: 700px;
+margin-right: 50px;
+margin-top: 20px;
+width: 90px;
+height: 30px;
+background-color: transparent;
+cursor: pointer;
+border: 0px;
+font-size: 16px;
+transition: transform 0.5s;
+}
+.but-up-tow{
+margin-right: 50px;
+margin-top: 20px;
+width: 90px;
+height: 30px;
+background-color: transparent;
+cursor: pointer;
+border: 0px;
+font-size: 16px;
+transition: transform 0.5s;
+}
+.but-up-three{
+margin-top: 20px;
+width: 90px;
+height: 30px;
+background-color: transparent;
+cursor: pointer;
+border: 0px;
+font-size: 16px;
+transition: transform 0.2s;
+}
+
+.but-up-one:hover{
+transform: scale(1.1);
+border: 1px solid black;
+
+}
+.but-up-tow:hover{
+    transform: scale(1.1);
+    border: 1px solid black;
+}
+.but-up-three:hover{
+    transform: scale(1.1);
+    border: 1px solid black;
+}
+
+
+
+.sec{
+    text-align: center;
+    padding: 40px;
+}
+
+h1{
+    font-weight: 500;
+    font-size: 75px;
+    color: rgb(233, 25, 25);
+}
+
+.p-one{
+    font-style: italic;
+    font-size: 13px;
+    color: crimson;
+    text-shadow: 0px 0px 8px rgb(212, 34, 69);
+}
+
+.ins{
+    width: 100px;
+    height: 4px ;
+    background-color: rgba(255, 174, 0, 0.657);
+    margin-left: 540px;
+    margin-bottom: 55px;
+}
+
+
+.sink{
+    margin-top: 50px;
+ text-align: center;
+
+}
+
+.ins-three{
+    width: 170px;
+    height: 4px ;
+    background-color: rgb(255, 217, 0);
+    margin-left: 545px;
+    margin-bottom: 55px;
+}
+
+
+h2{
+    font-size: 26px;
+    color: rgb(255, 0, 0);
+}
+
+.omar-tow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+
+.img{
+    width: 370px;
+}
+
+
+.i{
+    height: 440px;
+    text-align: center;
+    box-shadow: 0px 0px 20px 0px black;
+    background-color: crimson;
+}
+
+.ii{
+    height: 440px;
+    text-align: center;
+    box-shadow: 0px 0px 20px 0px black;
+    background-color: crimson;
+}
+
+
+.iii{
+    height: 440px;
+    text-align: center;
+    box-shadow: 0px 0px 20px 0px black;
+    background-color: crimson;
+}
+
+
+
+.p-tow{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+
+.p-three{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.p-four{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+}
+
+.ins-tow{
+    width: 50px;
+    height: 2px;
+    margin-top: 10px;
+    margin-left:160px;
+    background-color: white;
+    
+}
+
+
+.but-four{
+    width: 160px;
+    height: 40px;
+    margin-top: 30px;
+    background-color: rgb(221, 127, 185);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+    border: 0px;
+    transition:transform1s,
+    box-shadow 0.4s
+    ;
+}
+
+.but-four:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 5px 0px white;
+    
+}
+
+
+
+.img-tow{
+    width: 550px;
+    margin-top: 230px;
+    margin-left: 50px;
+}
+
+
+.sec-three{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+ 
+}
+
+
+.side{
+  width: 540px;
+  height: 490px;
+  margin-top: 230px;
+  text-align: center;
+  padding: 30px;
+  background-color: lightgray;
+}
+
+
+
+h6{
+    font-size:16px ;
+}
+
+
+.sup{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: lightgray;
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+
+
+
+.p-i{
+font-size: 20px;
+font-weight: bold;
+}
+
+.p-ii{
+    font-size: 10;
+}
+
+.inp-one{
+    height: 40px;
+    width: 150px;
+    margin-left: 555px;
+    border: 0px;
+    cursor: pointer;
+}
+.inp-one:hover{
+    border: 0px;
+    
+}
+
+.submit{
+    height: 30px;
+    width: 150px;
+    margin-left: 560px;
+    border: 0px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition:background-color 1s,
+    color 0.4s
+    ;
+}
+
+.submit:hover{
+    background-color: white;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
